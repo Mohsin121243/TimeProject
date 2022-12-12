@@ -35,6 +35,17 @@ public class Main {
         System.out.println(time3);
         time3.tick();
         System.out.println(time3);
+        Time time4 = new Time(10, 14, 43);
+        System.out.println(time4);
+        Time time5 = new Time(8, 30, 29);
+        time4.add(time5);
+        System.out.println(time4);
+        System.out.println(time5);
+        Time time6 = new Time(7, 20, 0);
+        time4.add(time6);
+        System.out.println(time4);
+
+
 
 
 
